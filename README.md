@@ -10,6 +10,7 @@ E assim que terminar a instalação das dependências dentro do container, o end
 
 `localhost:8000/docs` você terá acesso a documentão de cada rota juntamente com um exemplo de payload.
 
+Para executar os testes, rode o comando `docker-compose exec web pytest -v` para realizar os testes
 
 
 O projeto ainda não está terminado, falta fazer a tratativa de possíveis erros da api e também montar a master de testes.
