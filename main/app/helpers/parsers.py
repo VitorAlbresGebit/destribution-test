@@ -22,5 +22,5 @@ def buildPayload (employeesWithBonus):
         
             "participacoes" : shares,
             "total_de_funcionarios": totalEmployees,
-            "total_distribuido":totalBonus,
+            "total_distribuido":maskSalary(totalBonus),
         }
